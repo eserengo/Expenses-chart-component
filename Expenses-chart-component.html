@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./src/Expenses-chart-component.css" media="all">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="./src/Expenses-chart-component.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;700&display=swap">
+  <meta name="description" content="Author: Federico Borzani, Expenses chart component">
+</head>
+
+<body>
+  <main>
+    <header class="balance">
+      <span>My balance</span>
+      <h3>$921.48</h3>
+      <img src="./src/images/logo.svg" alt="logo image" class="right"/>
+    </header>
+    <section class="chart">
+      <h3>Spending - Last 7 days</h3>
+      <canvas id="bars">
+      </canvas>
+      <hr>
+      <div class="footer">
+        <p>Total this week</p>
+        <h1 id="total"></h1>
+      </div>
+      <div class="footer right">
+        <p><strong>+2.4%</strong></p>
+        <p>from last week</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/eserengo/" target="_blank">Federico Borzani</a>.
+  </div>
+</body>
+</html>
